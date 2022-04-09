@@ -1,0 +1,28 @@
+.card{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+}
+ol{
+    padding: 0;
+}
+li{
+    list-style-type:none;
+    cursor: pointer;
+    margin:10px 0;
+}
+li .card:hover{
+    border:1px solid blue
+}
+.question-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    h4{
+        font-family: cursive;
+    }
+    span{
+        font-style: italic;
+    }
+}
